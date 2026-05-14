@@ -1,0 +1,23 @@
+{
+  "overview": "A professional B.Tech portfolio for Laxman Patel (Computer Science, SISTec GN Bhopal) featuring a prominent profile photo, skill progress bars, 5 sample B.Tech projects, a contact form, and a smooth dark/colorful theme toggle.",
+  "features": [
+    "Profile photo displayed prominently in hero and about sections",
+    "Dark navy and vibrant colorful gradient theme with toggle",
+    "Skill progress bars for C, C++, Python, HTML, CSS",
+    "5 B.Tech sample project cards with detail pages",
+    "Contact form with validation and backend submission",
+    "Fully responsive mobile-friendly layout",
+    "Smooth scroll animations and section fade-ins",
+    "Sticky navigation with mobile hamburger menu"
+  ],
+  "category": "portfolio",
+  "tags": [
+    "portfolio",
+    "btech",
+    "student",
+    "college",
+    "showcase",
+    "dark-theme"
+  ],
+  "last_updated": "2026-04-16T18:24:14.482Z"
+}

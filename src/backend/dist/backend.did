@@ -1,0 +1,43 @@
+type SubmitResult = 
+ variant {
+   err: text;
+   ok: nat;
+ };
+type Skill = 
+ record {
+   color: text;
+   iconName: text;
+   name: text;
+   proficiency: nat;
+ };
+type Project = 
+ record {
+   demoLink: text;
+   description: text;
+   githubLink: text;
+   id: nat;
+   techStack: vec text;
+   title: text;
+ };
+type ContactSubmission = 
+ record {
+   email: text;
+   id: nat;
+   message: text;
+   name: text;
+   subject: text;
+   timestamp: int;
+ };
+type ContactFormInput = 
+ record {
+   email: text;
+   message: text;
+   name: text;
+   subject: text;
+ };
+service : {
+  getContactSubmissions: () -> (vec ContactSubmission) query;
+  getProjects: () -> (vec Project) query;
+  getSkills: () -> (vec Skill) query;
+  submitContact: (input: ContactFormInput) -> (SubmitResult);
+}
