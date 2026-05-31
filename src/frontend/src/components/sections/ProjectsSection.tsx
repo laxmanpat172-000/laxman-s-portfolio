@@ -1,7 +1,18 @@
 import { ProjectCard } from "@/components/ProjectCard";
 import { Badge } from "@/components/ui/badge";
-import type { Project, Theme } from "@/types";
+import type { Theme } from "@/types";
 import { useEffect, useRef, useState } from "react";
+
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  techStack: string[];
+  githubLink: string;
+  demoLink?: string;
+  category: string;
+  firstPrize?: boolean;
+}
 
 interface ProjectsSectionProps {
   theme: Theme;
@@ -10,53 +21,31 @@ interface ProjectsSectionProps {
 const PROJECTS: Project[] = [
   {
     id: 1,
-    title: "Calculator App",
+    title: "AgroHub – Smart Crop Information & Disease Management Platform",
     description:
-      "A command-line calculator built in C that supports basic and scientific operations. Handles arithmetic, trigonometry, and power functions with a clean CLI interface.",
-    techStack: ["C", "CLI"],
+      "Developed a comprehensive platform that provides detailed crop-related information to farmers. Identifies crop diseases using symptoms and images, suggests treatments and best farming practices to minimize crop losses.",
+    techStack: ["Python", "Machine Learning", "React", "HTML/CSS"],
     githubLink: "#",
-    demoLink: "#",
-    category: "C",
+    category: "AI & Agriculture",
   },
   {
     id: 2,
-    title: "Todo Application",
+    title: "Crowdsourced Civic Issue Reporting System",
     description:
-      "A web-based task manager with add, edit, and delete functionality and local storage. Built with Python backend and HTML/CSS frontend for a seamless experience.",
-    techStack: ["Python", "HTML", "CSS"],
+      "Built a citizen-driven platform where users can report civic issues like potholes, garbage dumps, and water leakages with location data. Helps municipal authorities track, prioritize, and resolve complaints efficiently.",
+    techStack: ["React", "Maps API", "Node.js", "Database"],
     githubLink: "#",
-    demoLink: "#",
-    category: "Web",
+    category: "Civic Tech",
   },
   {
     id: 3,
-    title: "Weather Dashboard",
+    title: "Remote Controlled Robot for Hazardous Working Conditions",
     description:
-      "Displays real-time weather data using API integration with beautiful visual output. Fetches live data and presents temperature, humidity, and forecasts at a glance.",
-    techStack: ["Python", "API", "CSS"],
+      "Wireless remote-controlled surveillance robot designed for industrial hazardous environments. Features real-time camera feed, obstacle detection, and wireless control. Won first prize for innovation and execution.",
+    techStack: ["Embedded C", "Arduino", "Wireless", "Robotics"],
     githubLink: "#",
-    demoLink: "#",
-    category: "Python",
-  },
-  {
-    id: 4,
-    title: "Expense Tracker",
-    description:
-      "Console app for tracking daily expenses with budget alerts and monthly summaries. Uses C++ file I/O to persist records and provides category-wise breakdown.",
-    techStack: ["C++", "File I/O"],
-    githubLink: "#",
-    demoLink: "#",
-    category: "C++",
-  },
-  {
-    id: 5,
-    title: "Chat System",
-    description:
-      "Simple socket-based chat application supporting multiple client connections. Built in Python using sockets and threading to enable real-time messaging between users.",
-    techStack: ["Python", "Sockets", "Networking"],
-    githubLink: "#",
-    demoLink: "#",
-    category: "Python",
+    category: "Robotics",
+    firstPrize: true,
   },
 ];
 
@@ -105,8 +94,9 @@ export function ProjectsSection({ theme }: ProjectsSectionProps) {
               My <span className="gradient-text">Projects</span>
             </h2>
             <p className="text-muted-foreground max-w-md mx-auto text-sm sm:text-base">
-              Real projects built with passion — from C programs to web apps,
-              each solving a genuine problem and showcasing core CS skills.
+              Real projects built with passion — from agriculture AI and civic
+              tech to award-winning robotics, each solving a genuine real-world
+              problem.
             </p>
           </div>
 

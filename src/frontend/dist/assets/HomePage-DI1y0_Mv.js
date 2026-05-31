@@ -1,11 +1,11 @@
-import { c as createLucideIcon, j as jsxRuntimeExports, S as Slot, a as cn, b as cva, r as reactExports, d as createSlot, o, v as vt, M as Mail, G as Github, L as Linkedin, B as Button, E as ExternalLink } from "./index-CMZlRqpv.js";
+import { c as createLucideIcon, j as jsxRuntimeExports, S as Slot, a as cn, b as cva, r as reactExports, B as Button, E as ExternalLink, d as createSlot, o, v as vt, M as Mail, G as Github, L as Linkedin } from "./index-CYk0yInM.js";
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$a = [
+const __iconNode$f = [
   [
     "path",
     {
@@ -15,14 +15,14 @@ const __iconNode$a = [
   ],
   ["circle", { cx: "12", cy: "8", r: "6", key: "1vp47v" }]
 ];
-const Award = createLucideIcon("award", __iconNode$a);
+const Award = createLucideIcon("award", __iconNode$f);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$9 = [
+const __iconNode$e = [
   ["path", { d: "M12 7v14", key: "1akyts" }],
   [
     "path",
@@ -32,7 +32,67 @@ const __iconNode$9 = [
     }
   ]
 ];
-const BookOpen = createLucideIcon("book-open", __iconNode$9);
+const BookOpen = createLucideIcon("book-open", __iconNode$e);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$d = [
+  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
+  ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
+];
+const Briefcase = createLucideIcon("briefcase", __iconNode$d);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$c = [
+  ["path", { d: "M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z", key: "1b4qmf" }],
+  ["path", { d: "M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2", key: "i71pzd" }],
+  ["path", { d: "M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2", key: "10jefs" }],
+  ["path", { d: "M10 6h4", key: "1itunk" }],
+  ["path", { d: "M10 10h4", key: "tcdvrf" }],
+  ["path", { d: "M10 14h4", key: "kelpxr" }],
+  ["path", { d: "M10 18h4", key: "1ulq68" }]
+];
+const Building2 = createLucideIcon("building-2", __iconNode$c);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$b = [
+  ["path", { d: "M8 2v4", key: "1cmpym" }],
+  ["path", { d: "M16 2v4", key: "4m81vk" }],
+  ["rect", { width: "18", height: "18", x: "3", y: "4", rx: "2", key: "1hopcy" }],
+  ["path", { d: "M3 10h18", key: "8toen8" }]
+];
+const Calendar = createLucideIcon("calendar", __iconNode$b);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$a = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
+const ChevronDown = createLucideIcon("chevron-down", __iconNode$a);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$9 = [
+  ["path", { d: "m18 16 4-4-4-4", key: "1inbqp" }],
+  ["path", { d: "m6 8-4 4 4 4", key: "15zrgr" }],
+  ["path", { d: "m14.5 4-5 16", key: "e7oirm" }]
+];
+const CodeXml = createLucideIcon("code-xml", __iconNode$9);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -40,37 +100,6 @@ const BookOpen = createLucideIcon("book-open", __iconNode$9);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$8 = [
-  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
-  ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
-];
-const Briefcase = createLucideIcon("briefcase", __iconNode$8);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$7 = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
-const ChevronDown = createLucideIcon("chevron-down", __iconNode$7);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$6 = [
-  ["path", { d: "m18 16 4-4-4-4", key: "1inbqp" }],
-  ["path", { d: "m6 8-4 4 4 4", key: "15zrgr" }],
-  ["path", { d: "m14.5 4-5 16", key: "e7oirm" }]
-];
-const CodeXml = createLucideIcon("code-xml", __iconNode$6);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$5 = [
   [
     "path",
     {
@@ -81,14 +110,14 @@ const __iconNode$5 = [
   ["path", { d: "M22 10v6", key: "1lu8f3" }],
   ["path", { d: "M6 12.5V16a6 3 0 0 0 12 0v-3.5", key: "1r8lef" }]
 ];
-const GraduationCap = createLucideIcon("graduation-cap", __iconNode$5);
+const GraduationCap = createLucideIcon("graduation-cap", __iconNode$8);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$4 = [
+const __iconNode$7 = [
   [
     "path",
     {
@@ -98,24 +127,24 @@ const __iconNode$4 = [
   ],
   ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }]
 ];
-const MapPin = createLucideIcon("map-pin", __iconNode$4);
+const MapPin = createLucideIcon("map-pin", __iconNode$7);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$3 = [
+const __iconNode$6 = [
   ["polygon", { points: "3 11 22 2 13 21 11 13 3 11", key: "1ltx0t" }]
 ];
-const Navigation = createLucideIcon("navigation", __iconNode$3);
+const Navigation = createLucideIcon("navigation", __iconNode$6);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2 = [
+const __iconNode$5 = [
   [
     "path",
     {
@@ -124,14 +153,35 @@ const __iconNode$2 = [
     }
   ]
 ];
-const Phone = createLucideIcon("phone", __iconNode$2);
+const Phone = createLucideIcon("phone", __iconNode$5);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$1 = [
+const __iconNode$4 = [
+  ["path", { d: "M14 22v-4a2 2 0 1 0-4 0v4", key: "hhkicm" }],
+  [
+    "path",
+    {
+      d: "m18 10 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7.382a1 1 0 0 1 .553-.894L6 10",
+      key: "1xqip1"
+    }
+  ],
+  ["path", { d: "M18 5v17", key: "1sw6gf" }],
+  ["path", { d: "m4 6 7.106-3.553a2 2 0 0 1 1.788 0L20 6", key: "9d2mlk" }],
+  ["path", { d: "M6 5v17", key: "1xfsm0" }],
+  ["circle", { cx: "12", cy: "9", r: "2", key: "1092wv" }]
+];
+const School = createLucideIcon("school", __iconNode$4);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$3 = [
   [
     "path",
     {
@@ -141,7 +191,33 @@ const __iconNode$1 = [
   ],
   ["path", { d: "m21.854 2.147-10.94 10.939", key: "12cjpa" }]
 ];
-const Send = createLucideIcon("send", __iconNode$1);
+const Send = createLucideIcon("send", __iconNode$3);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$2 = [
+  ["rect", { width: "14", height: "20", x: "5", y: "2", rx: "2", ry: "2", key: "1yt0o3" }],
+  ["path", { d: "M12 18h.01", key: "mhygvu" }]
+];
+const Smartphone = createLucideIcon("smartphone", __iconNode$2);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1 = [
+  ["path", { d: "M6 9H4.5a2.5 2.5 0 0 1 0-5H6", key: "17hqa7" }],
+  ["path", { d: "M18 9h1.5a2.5 2.5 0 0 0 0-5H18", key: "lmptdp" }],
+  ["path", { d: "M4 22h16", key: "57wxv0" }],
+  ["path", { d: "M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22", key: "1nw9bq" }],
+  ["path", { d: "M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22", key: "1np0yb" }],
+  ["path", { d: "M18 2H6v7a6 6 0 0 0 12 0V2Z", key: "u46fv3" }]
+];
+const Trophy = createLucideIcon("trophy", __iconNode$1);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -399,6 +475,226 @@ function AboutSection({ theme }) {
             ))
           }
         )
+      ] }) })
+    }
+  );
+}
+const CERTIFICATES = [
+  {
+    id: "tit-srijan-2026",
+    title: "Certificate of Participation",
+    subtitle: "TIT Srijan 2026 — 24 Hours National Level Hackathon",
+    org: "Technocrats Institute of Technology, Bhopal",
+    platform: "Organised via Unstop",
+    date: "2026",
+    details: "Participated in Screening Round: Idea Submission",
+    teamBadge: "Team: Tech Elite",
+    hue: 45,
+    Icon: Trophy
+  },
+  {
+    id: "cisco-apply-ai",
+    title: "Apply AI: Analyze Customer Reviews",
+    org: "Cisco Networking Academy",
+    platform: "Sagar Group of Institutions — SISTec",
+    instructor: "Instructor: Amit Swami",
+    date: "27 Dec 2025",
+    hue: 210,
+    Icon: BookOpen
+  },
+  {
+    id: "sdt-mobile-dev",
+    title: "Mobile Application Development",
+    subtitle: "1 Week Value Addition Course (VAC)",
+    org: "Saksham Digital Technology",
+    platform: "12 Jan 2026 – 16 Jan 2026",
+    date: "January 2026",
+    certNo: "SDT01280",
+    verifyUrl: "https://sakshamdigitaltechnology.com/certificate",
+    hue: 150,
+    Icon: Smartphone
+  }
+];
+function CertificatesSection({ theme }) {
+  const isColorful = theme === "colorful";
+  const sectionRef = reactExports.useRef(null);
+  const [visible, setVisible] = reactExports.useState(false);
+  reactExports.useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "section",
+    {
+      id: "certificates",
+      ref: sectionRef,
+      className: "py-20 bg-background",
+      "data-ocid": "certificates.section",
+      children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 sm:px-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-5xl mx-auto", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: `text-center mb-14 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs(Badge, { variant: "outline", className: "mb-4 px-4 py-1", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Trophy, { className: "w-3 h-3 mr-1.5" }),
+                "Certifications & Achievements"
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display font-black text-3xl sm:text-4xl md:text-5xl text-foreground", children: [
+                "My ",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "gradient-text", children: "Certificates" })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground mt-3 max-w-md mx-auto text-base", children: "3 certificates earned — hackathons, industry courses & professional training." })
+            ]
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6", children: CERTIFICATES.map(
+          ({
+            id,
+            title,
+            subtitle,
+            org,
+            platform,
+            instructor,
+            date,
+            details,
+            certNo,
+            teamBadge,
+            verifyUrl,
+            hue,
+            Icon
+          }, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: `transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
+              style: { transitionDelay: `${120 + i * 100}ms` },
+              "data-ocid": `certificates.item.${i + 1}`,
+              children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                Card,
+                {
+                  className: "card-elevated h-full flex flex-col p-5 rounded-2xl group hover:scale-[1.02] hover:shadow-lg transition-all duration-300",
+                  style: {
+                    boxShadow: isColorful ? `0 0 0 1px oklch(0.72 0.18 ${hue} / 0.18)` : void 0
+                  },
+                  children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start justify-between mb-4", children: [
+                      /* @__PURE__ */ jsxRuntimeExports.jsx(
+                        "div",
+                        {
+                          className: "w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0",
+                          style: {
+                            background: isColorful ? `linear-gradient(135deg, oklch(0.72 0.22 ${hue} / 0.22) 0%, oklch(0.65 0.20 ${(hue + 60) % 360} / 0.18) 100%)` : "oklch(var(--primary) / 0.13)",
+                            border: `1px solid oklch(0.72 0.20 ${hue} / 0.30)`
+                          },
+                          children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                            Icon,
+                            {
+                              className: "w-5 h-5",
+                              style: {
+                                color: isColorful ? `oklch(0.72 0.22 ${hue})` : "oklch(var(--primary))"
+                              }
+                            }
+                          )
+                        }
+                      ),
+                      /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                        Badge,
+                        {
+                          variant: "outline",
+                          className: "text-xs flex items-center gap-1 flex-shrink-0",
+                          style: {
+                            color: `oklch(0.72 0.20 ${hue})`,
+                            borderColor: `oklch(0.72 0.20 ${hue} / 0.40)`,
+                            background: `oklch(0.72 0.20 ${hue} / 0.08)`
+                          },
+                          children: [
+                            /* @__PURE__ */ jsxRuntimeExports.jsx(Calendar, { className: "w-3 h-3" }),
+                            date
+                          ]
+                        }
+                      )
+                    ] }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1 min-w-0", children: [
+                      /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-base text-foreground leading-snug mb-1", children: title }),
+                      subtitle && /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground/80 leading-snug mb-2", children: subtitle }),
+                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-1.5 text-xs text-muted-foreground mb-1", children: [
+                        /* @__PURE__ */ jsxRuntimeExports.jsx(Building2, { className: "w-3 h-3 flex-shrink-0 mt-0.5" }),
+                        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "leading-snug", children: org })
+                      ] }),
+                      platform && /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground/70 mb-1 pl-4.5", children: platform }),
+                      instructor && /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground/60 mb-1 pl-4.5 italic", children: instructor }),
+                      details && /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground/70 mt-1.5", children: details }),
+                      teamBadge && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                        "span",
+                        {
+                          className: "inline-flex items-center mt-2 text-[11px] font-semibold px-2 py-0.5 rounded-full",
+                          style: {
+                            color: `oklch(0.72 0.22 ${hue})`,
+                            background: `oklch(0.72 0.20 ${hue} / 0.12)`,
+                            border: `1px solid oklch(0.72 0.20 ${hue} / 0.30)`
+                          },
+                          children: [
+                            "🏆 ",
+                            teamBadge
+                          ]
+                        }
+                      ),
+                      certNo && /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xs text-muted-foreground/60 font-mono mt-2", children: [
+                        "Cert No: ",
+                        certNo
+                      ] })
+                    ] }),
+                    verifyUrl ? /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      Button,
+                      {
+                        variant: "outline",
+                        size: "sm",
+                        className: "mt-4 w-full gap-1.5 text-xs group-hover:border-primary/60 transition-colors duration-200",
+                        asChild: true,
+                        "data-ocid": `certificates.verify_button.${i + 1}`,
+                        children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                          "a",
+                          {
+                            href: verifyUrl,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: [
+                              /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { className: "w-3.5 h-3.5" }),
+                              "Verify Certificate"
+                            ]
+                          }
+                        )
+                      }
+                    ) : /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      "div",
+                      {
+                        className: "mt-4 w-full text-center text-xs py-1.5 rounded-lg",
+                        style: {
+                          color: `oklch(0.72 0.18 ${hue})`,
+                          background: `oklch(0.72 0.18 ${hue} / 0.08)`,
+                          border: `1px solid oklch(0.72 0.18 ${hue} / 0.22)`
+                        },
+                        children: "✓ Certificate Earned"
+                      }
+                    )
+                  ]
+                }
+              )
+            },
+            id
+          )
+        ) })
       ] }) })
     }
   );
@@ -1068,6 +1364,172 @@ function ContactSection({ theme }) {
     }
   );
 }
+const EDUCATION = [
+  {
+    icon: GraduationCap,
+    level: "B.Tech — Computer Science",
+    institution: "Sagar Institute of Science and Technology (SISTec GN)",
+    location: "Bhopal, Madhya Pradesh",
+    years: "2023 – Present",
+    status: "Ongoing",
+    statusHue: 150,
+    description: "Pursuing Bachelor of Technology in Computer Science. Currently in 2nd year with a CGPA of 8.6+. Actively participating in tech fests, coding competitions, and project-based learning.",
+    href: "https://www.sistecgn.ac.in/",
+    hue: 280
+  },
+  {
+    icon: School,
+    level: "12th / Higher Secondary (H.S.C.)",
+    institution: "Vidhya Bharti H.Sec School",
+    location: "Dwarka Nagar, Bhopal, Madhya Pradesh",
+    years: "2021 – 2023",
+    status: "Completed",
+    statusHue: 190,
+    description: "Completed Higher Secondary education with focus on Science stream (Physics, Chemistry, Mathematics). Built strong analytical and problem-solving foundations that drive my passion for Computer Science.",
+    href: "https://www.google.com/maps/search/Vidhya+Bharti+H.Sec+School+Dwarka+Nagar+Bhopal",
+    hue: 190
+  }
+];
+function EducationSection({ theme }) {
+  const isColorful = theme === "colorful";
+  const sectionRef = reactExports.useRef(null);
+  const [visible, setVisible] = reactExports.useState(false);
+  reactExports.useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "section",
+    {
+      id: "education",
+      ref: sectionRef,
+      className: "py-20 gradient-section-alt",
+      "data-ocid": "education.section",
+      children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 sm:px-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: `text-center mb-14 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs(Badge, { variant: "outline", className: "mb-4 px-4 py-1", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "w-3 h-3 mr-1.5" }),
+                "Education"
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display font-black text-3xl sm:text-4xl md:text-5xl text-foreground", children: [
+                "Academic ",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "gradient-text", children: "Journey" })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground mt-3 max-w-md mx-auto text-base", children: "Building knowledge brick by brick — from school foundations to engineering excellence." })
+            ]
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: `absolute left-6 sm:left-8 top-4 bottom-4 w-0.5 transition-all duration-1000 ${visible ? "opacity-100" : "opacity-0"} ${isColorful ? "bg-gradient-to-b from-primary via-accent to-chart-4" : "bg-gradient-to-b from-primary/60 to-primary/20"}`
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-col gap-8", children: EDUCATION.map(
+            ({
+              icon: Icon,
+              level,
+              institution,
+              location,
+              years,
+              status,
+              statusHue,
+              description,
+              href,
+              hue
+            }, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "div",
+              {
+                className: `relative flex gap-6 sm:gap-8 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
+                style: { transitionDelay: `${150 + i * 180}ms` },
+                "data-ocid": `education.item.${i + 1}`,
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "div",
+                    {
+                      className: "relative z-10 flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center",
+                      style: {
+                        background: isColorful ? `linear-gradient(135deg, oklch(0.72 0.22 ${hue} / 0.22) 0%, oklch(0.65 0.20 ${(hue + 60) % 360} / 0.18) 100%)` : "oklch(var(--primary) / 0.13)",
+                        border: "1px solid oklch(var(--primary) / 0.28)"
+                      },
+                      children: /* @__PURE__ */ jsxRuntimeExports.jsx(Icon, { className: "w-5 h-5 sm:w-6 sm:h-6 text-primary" })
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                    Card,
+                    {
+                      className: "card-elevated flex-1 p-5 sm:p-6 rounded-2xl min-w-0",
+                      "data-ocid": `education.card.${i + 1}`,
+                      children: [
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3", children: [
+                          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground uppercase tracking-wider font-medium mb-1", children: level }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx(
+                              "a",
+                              {
+                                href,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "font-display font-bold text-lg text-foreground hover:text-primary transition-colors duration-200 underline decoration-dotted underline-offset-2 hover:decoration-solid leading-snug block",
+                                "data-ocid": `education.link.${i + 1}`,
+                                children: institution
+                              }
+                            )
+                          ] }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center gap-2 flex-shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                            Badge,
+                            {
+                              variant: "outline",
+                              className: "text-xs whitespace-nowrap",
+                              style: {
+                                color: `oklch(0.72 0.22 ${statusHue})`,
+                                borderColor: `oklch(0.72 0.22 ${statusHue} / 0.40)`,
+                                background: `oklch(0.72 0.22 ${statusHue} / 0.08)`
+                              },
+                              children: status
+                            }
+                          ) })
+                        ] }),
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap items-center gap-x-4 gap-y-1 mb-3", children: [
+                          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "flex items-center gap-1.5 text-xs text-muted-foreground", children: [
+                            /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-3 h-3 flex-shrink-0" }),
+                            location
+                          ] }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "flex items-center gap-1.5 text-xs text-muted-foreground", children: [
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "w-1 h-1 rounded-full bg-muted-foreground/40" }),
+                            years
+                          ] })
+                        ] }),
+                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-relaxed", children: description })
+                      ]
+                    }
+                  )
+                ]
+              },
+              institution
+            )
+          ) })
+        ] })
+      ] }) })
+    }
+  );
+}
 function HeroSection({ theme }) {
   const isColorful = theme === "colorful";
   const [imgError, setImgError] = reactExports.useState(false);
@@ -1332,178 +1794,329 @@ function LocationSection({ theme }) {
                 "Location"
               ] }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display font-black text-3xl sm:text-4xl md:text-5xl text-foreground mb-3", children: [
-                "College ",
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "gradient-text", children: "Location" })
+                "My ",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "gradient-text", children: "Locations" })
               ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground max-w-md mx-auto text-base", children: "Pursuing B.Tech at one of Bhopal's premier engineering institutes." })
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground max-w-md mx-auto text-base", children: "From school roots to engineering excellence — both institutions that shaped my journey in Bhopal." })
             ]
           }
         ),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-5 gap-8 items-stretch", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "div",
-            {
-              className: `lg:col-span-3 card-elevated rounded-2xl overflow-hidden transition-all duration-700 delay-100 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
-              "data-ocid": "location.map_card",
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "iframe",
-                {
-                  title: "SISTec GN Location",
-                  src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.3!2d77.4126!3d23.2599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4280b57dc43b%3A0x50b2756af1c6b2c4!2sSagar%20Institute%20of%20Science%20%26%20Technology%20(SISTec%20GN)!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
-                  width: "100%",
-                  height: "360",
-                  style: { border: 0, display: "block" },
-                  allowFullScreen: true,
-                  loading: "lazy",
-                  referrerPolicy: "no-referrer-when-downgrade",
-                  className: "w-full min-h-[260px] sm:min-h-[320px] lg:min-h-[360px]"
-                }
-              )
-            }
-          ),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            "div",
-            {
-              className: `lg:col-span-2 flex flex-col gap-4 transition-all duration-700 delay-200 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
-              children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: `mb-10 transition-all duration-700 delay-100 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 mb-4", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
                   "div",
                   {
-                    className: "card-elevated rounded-xl p-5 flex items-start gap-4",
-                    "data-ocid": "location.college_card",
-                    children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "div",
-                        {
-                          className: "w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5",
-                          style: {
-                            background: iconBg,
-                            border: "1px solid oklch(var(--primary) / 0.25)"
-                          },
-                          children: /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-4 h-4 text-primary" })
-                        }
-                      ),
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mb-1", children: "Institution" }),
+                    className: "w-8 h-8 rounded-lg flex items-center justify-center",
+                    style: {
+                      background: iconBg,
+                      border: "1px solid oklch(var(--primary) / 0.25)"
+                    },
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx(GraduationCap, { className: "w-4 h-4 text-primary" })
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-lg text-foreground", children: "College" })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-5 gap-6 items-stretch", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "div",
+                  {
+                    className: "lg:col-span-3 card-elevated rounded-2xl overflow-hidden",
+                    "data-ocid": "location.college_map_card",
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      "iframe",
+                      {
+                        title: "SISTec GN Location",
+                        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.3!2d77.4126!3d23.2599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4280b57dc43b%3A0x50b2756af1c6b2c4!2sSagar%20Institute%20of%20Science%20%26%20Technology%20(SISTec%20GN)!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+                        width: "100%",
+                        height: "300",
+                        style: { border: 0, display: "block" },
+                        allowFullScreen: true,
+                        loading: "lazy",
+                        referrerPolicy: "no-referrer-when-downgrade",
+                        className: "w-full min-h-[220px] sm:min-h-[280px] lg:min-h-[300px]"
+                      }
+                    )
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-2 flex flex-col gap-3", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                    "div",
+                    {
+                      className: "card-elevated rounded-xl p-5 flex items-start gap-4",
+                      "data-ocid": "location.college_card",
+                      children: [
                         /* @__PURE__ */ jsxRuntimeExports.jsx(
+                          "div",
+                          {
+                            className: "w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5",
+                            style: {
+                              background: iconBg,
+                              border: "1px solid oklch(var(--primary) / 0.25)"
+                            },
+                            children: /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-4 h-4 text-primary" })
+                          }
+                        ),
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mb-1", children: "Institution" }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx(
+                            "a",
+                            {
+                              href: "https://www.sistecgn.ac.in/",
+                              target: "_blank",
+                              rel: "noopener noreferrer",
+                              className: "text-sm font-bold text-foreground hover:text-primary transition-smooth leading-snug block underline decoration-dotted underline-offset-2 hover:decoration-solid",
+                              "data-ocid": "location.college_link",
+                              children: "Sagar Institute of Science and Technology (SISTec GN)"
+                            }
+                          ),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mt-1", children: "B.Tech — Computer Science" })
+                        ] })
+                      ]
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                    "div",
+                    {
+                      className: "card-elevated rounded-xl p-5 flex items-start gap-4",
+                      "data-ocid": "location.address_card",
+                      children: [
+                        /* @__PURE__ */ jsxRuntimeExports.jsx(
+                          "div",
+                          {
+                            className: "w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5",
+                            style: {
+                              background: iconBg,
+                              border: "1px solid oklch(var(--primary) / 0.25)"
+                            },
+                            children: /* @__PURE__ */ jsxRuntimeExports.jsx(Navigation, { className: "w-4 h-4 text-primary" })
+                          }
+                        ),
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mb-1", children: "Address" }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm font-semibold text-foreground leading-snug", children: "Airport Road, Gandhi Nagar" }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-snug", children: "Bhopal, Madhya Pradesh 462036" })
+                        ] })
+                      ]
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                    "div",
+                    {
+                      className: "card-elevated rounded-xl p-5 flex items-start gap-4",
+                      "data-ocid": "location.phone_card",
+                      children: [
+                        /* @__PURE__ */ jsxRuntimeExports.jsx(
+                          "div",
+                          {
+                            className: "w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5",
+                            style: {
+                              background: iconBg,
+                              border: "1px solid oklch(var(--primary) / 0.25)"
+                            },
+                            children: /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4 text-primary" })
+                          }
+                        ),
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mb-1", children: "Phone" }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx(
+                            "a",
+                            {
+                              href: "tel:+917554029999",
+                              className: "text-sm font-semibold text-foreground hover:text-primary transition-smooth block",
+                              "data-ocid": "location.phone_link",
+                              children: "+91 755 402 9999"
+                            }
+                          )
+                        ] })
+                      ]
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2 mt-auto", children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      Button,
+                      {
+                        asChild: true,
+                        className: `flex-1 gap-1.5 font-semibold text-xs ${isColorful ? "" : "glow-purple"}`,
+                        "data-ocid": "location.college_directions_button",
+                        children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                          "a",
+                          {
+                            href: "https://www.google.com/maps/search/Sagar+Institute+of+Science+and+Technology+SISTec+GN+Bhopal",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: [
+                              /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-3.5 h-3.5" }),
+                              "Directions"
+                            ]
+                          }
+                        )
+                      }
+                    ),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      Button,
+                      {
+                        asChild: true,
+                        variant: "outline",
+                        className: "flex-1 gap-1.5 font-semibold text-xs",
+                        "data-ocid": "location.college_site_button",
+                        children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
                           "a",
                           {
                             href: "https://www.sistecgn.ac.in/",
                             target: "_blank",
                             rel: "noopener noreferrer",
-                            className: "text-sm font-bold text-foreground hover:text-primary transition-smooth leading-snug block underline decoration-dotted underline-offset-2 hover:decoration-solid",
-                            "data-ocid": "location.college_link",
-                            children: "Sagar Institute of Science and Technology (SISTec GN)"
-                          }
-                        ),
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mt-1", children: "B.Tech — Computer Science" })
-                      ] })
-                    ]
-                  }
-                ),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                  "div",
-                  {
-                    className: "card-elevated rounded-xl p-5 flex items-start gap-4",
-                    "data-ocid": "location.address_card",
-                    children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "div",
-                        {
-                          className: "w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5",
-                          style: {
-                            background: iconBg,
-                            border: "1px solid oklch(var(--primary) / 0.25)"
-                          },
-                          children: /* @__PURE__ */ jsxRuntimeExports.jsx(Navigation, { className: "w-4 h-4 text-primary" })
-                        }
-                      ),
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mb-1", children: "Address" }),
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm font-semibold text-foreground leading-snug", children: "Airport Road, Gandhi Nagar" }),
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-snug", children: "Bhopal, Madhya Pradesh 462036" })
-                      ] })
-                    ]
-                  }
-                ),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                  "div",
-                  {
-                    className: "card-elevated rounded-xl p-5 flex items-start gap-4",
-                    "data-ocid": "location.phone_card",
-                    children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "div",
-                        {
-                          className: "w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5",
-                          style: {
-                            background: iconBg,
-                            border: "1px solid oklch(var(--primary) / 0.25)"
-                          },
-                          children: /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4 text-primary" })
-                        }
-                      ),
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mb-1", children: "Phone" }),
-                        /* @__PURE__ */ jsxRuntimeExports.jsx(
-                          "a",
-                          {
-                            href: "tel:+917554029999",
-                            className: "text-sm font-semibold text-foreground hover:text-primary transition-smooth block",
-                            "data-ocid": "location.phone_link",
-                            children: "+91 755 402 9999"
+                            children: [
+                              /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { className: "w-3.5 h-3.5" }),
+                              "Website"
+                            ]
                           }
                         )
-                      ] })
-                    ]
+                      }
+                    )
+                  ] })
+                ] })
+              ] })
+            ]
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            className: `border-t border-border/30 mb-10 transition-all duration-700 delay-200 ${visible ? "opacity-100" : "opacity-0"}`
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: `transition-all duration-700 delay-300 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 mb-4", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "div",
+                  {
+                    className: "w-8 h-8 rounded-lg flex items-center justify-center",
+                    style: {
+                      background: isColorful ? "linear-gradient(135deg, oklch(0.72 0.22 190 / 0.18), oklch(0.68 0.20 150 / 0.18))" : "oklch(var(--primary) / 0.12)",
+                      border: "1px solid oklch(var(--primary) / 0.25)"
+                    },
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx(School, { className: "w-4 h-4 text-primary" })
                   }
                 ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-lg text-foreground", children: "School" })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-5 gap-6 items-stretch", children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  Button,
+                  "div",
                   {
-                    asChild: true,
-                    className: `w-full gap-2 font-semibold mt-auto ${isColorful ? "" : "glow-purple"}`,
-                    "data-ocid": "location.directions_button",
-                    children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                      "a",
+                    className: "lg:col-span-3 card-elevated rounded-2xl overflow-hidden",
+                    "data-ocid": "location.school_map_card",
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      "iframe",
                       {
-                        href: "https://www.google.com/maps/search/Sagar+Institute+of+Science+and+Technology+SISTec+GN+Bhopal",
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: [
-                          /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-4 h-4" }),
-                          "Get Directions",
-                          /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { className: "w-3.5 h-3.5 opacity-70" })
-                        ]
+                        title: "Vidhya Bharti School Location",
+                        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.8!2d77.3853!3d23.2532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42f0e3ef1e5d%3A0x1a2b3c4d5e6f7a8b!2sDwarka%20Nagar%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000001!5m2!1sen!2sin",
+                        width: "100%",
+                        height: "300",
+                        style: { border: 0, display: "block" },
+                        allowFullScreen: true,
+                        loading: "lazy",
+                        referrerPolicy: "no-referrer-when-downgrade",
+                        className: "w-full min-h-[220px] sm:min-h-[280px] lg:min-h-[300px]"
                       }
                     )
                   }
                 ),
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  Button,
-                  {
-                    asChild: true,
-                    variant: "outline",
-                    className: "w-full gap-2 font-semibold",
-                    "data-ocid": "location.college_site_button",
-                    children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                      "a",
-                      {
-                        href: "https://www.sistecgn.ac.in/",
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: [
-                          /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { className: "w-4 h-4" }),
-                          "Visit College Website"
-                        ]
-                      }
-                    )
-                  }
-                )
-              ]
-            }
-          )
-        ] })
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-2 flex flex-col gap-3", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                    "div",
+                    {
+                      className: "card-elevated rounded-xl p-5 flex items-start gap-4",
+                      "data-ocid": "location.school_card",
+                      children: [
+                        /* @__PURE__ */ jsxRuntimeExports.jsx(
+                          "div",
+                          {
+                            className: "w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5",
+                            style: {
+                              background: isColorful ? "linear-gradient(135deg, oklch(0.72 0.22 190 / 0.18), oklch(0.68 0.20 150 / 0.18))" : "oklch(var(--primary) / 0.12)",
+                              border: "1px solid oklch(var(--primary) / 0.25)"
+                            },
+                            children: /* @__PURE__ */ jsxRuntimeExports.jsx(School, { className: "w-4 h-4 text-primary" })
+                          }
+                        ),
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mb-1", children: "School" }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx(
+                            "a",
+                            {
+                              href: "https://www.google.com/maps/search/Vidhya+Bharti+H.Sec+School+Dwarka+Nagar+Bhopal",
+                              target: "_blank",
+                              rel: "noopener noreferrer",
+                              className: "text-sm font-bold text-foreground hover:text-primary transition-smooth leading-snug block underline decoration-dotted underline-offset-2 hover:decoration-solid",
+                              "data-ocid": "location.school_link",
+                              children: "Vidhya Bharti H.Sec School"
+                            }
+                          ),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mt-1", children: "12th / Higher Secondary" })
+                        ] })
+                      ]
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                    "div",
+                    {
+                      className: "card-elevated rounded-xl p-5 flex items-start gap-4",
+                      "data-ocid": "location.school_address_card",
+                      children: [
+                        /* @__PURE__ */ jsxRuntimeExports.jsx(
+                          "div",
+                          {
+                            className: "w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5",
+                            style: {
+                              background: isColorful ? "linear-gradient(135deg, oklch(0.72 0.22 190 / 0.18), oklch(0.68 0.20 150 / 0.18))" : "oklch(var(--primary) / 0.12)",
+                              border: "1px solid oklch(var(--primary) / 0.25)"
+                            },
+                            children: /* @__PURE__ */ jsxRuntimeExports.jsx(Navigation, { className: "w-4 h-4 text-primary" })
+                          }
+                        ),
+                        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mb-1", children: "Address" }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm font-semibold text-foreground leading-snug", children: "Dwarka Nagar" }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-snug", children: "Bhopal, Madhya Pradesh" })
+                        ] })
+                      ]
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    Button,
+                    {
+                      asChild: true,
+                      className: `w-full gap-2 font-semibold mt-auto ${isColorful ? "" : "glow-purple"}`,
+                      "data-ocid": "location.school_directions_button",
+                      children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                        "a",
+                        {
+                          href: "https://www.google.com/maps/search/Vidhya+Bharti+H.Sec+School+Dwarka+Nagar+Bhopal",
+                          target: "_blank",
+                          rel: "noopener noreferrer",
+                          children: [
+                            /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-4 h-4" }),
+                            "Find School on Maps",
+                            /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { className: "w-3.5 h-3.5 opacity-70" })
+                          ]
+                        }
+                      )
+                    }
+                  )
+                ] })
+              ] })
+            ]
+          }
+        )
       ] }) })
     }
   );
@@ -1513,7 +2126,17 @@ const TECH_COLORS = {
   "C++": "oklch(0.72 0.22 280)",
   Python: "oklch(0.72 0.18 150)",
   HTML: "oklch(0.68 0.22 40)",
+  "HTML/CSS": "oklch(0.68 0.22 40)",
   CSS: "oklch(0.66 0.22 220)",
+  React: "oklch(0.66 0.22 210)",
+  "Machine Learning": "oklch(0.68 0.20 150)",
+  "Maps API": "oklch(0.64 0.18 190)",
+  "Node.js": "oklch(0.68 0.20 150)",
+  Database: "oklch(0.64 0.16 240)",
+  "Embedded C": "oklch(0.66 0.18 30)",
+  Arduino: "oklch(0.62 0.20 190)",
+  Wireless: "oklch(0.66 0.20 270)",
+  Robotics: "oklch(0.68 0.22 280)",
   CLI: "oklch(0.60 0.15 280)",
   API: "oklch(0.65 0.18 190)",
   "File I/O": "oklch(0.62 0.16 320)",
@@ -1521,13 +2144,14 @@ const TECH_COLORS = {
   Networking: "oklch(0.64 0.18 190)"
 };
 const PROJECT_EMOJIS = {
-  1: "🖩",
-  2: "✅",
-  3: "🌦️",
-  4: "💰",
-  5: "💬"
+  1: "🌾",
+  2: "🏙️",
+  3: "🤖"
 };
 const CATEGORY_ACCENT = {
+  "AI & Agriculture": "oklch(0.68 0.22 145)",
+  "Civic Tech": "oklch(0.66 0.20 220)",
+  Robotics: "oklch(0.68 0.22 280)",
   C: "oklch(0.70 0.20 30)",
   "C++": "oklch(0.72 0.22 280)",
   Python: "oklch(0.72 0.18 150)",
@@ -1540,9 +2164,24 @@ function ProjectCard({ project, theme, index }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(
     "div",
     {
-      className: "card-elevated rounded-2xl overflow-hidden flex flex-col group",
+      className: "card-elevated rounded-2xl overflow-hidden flex flex-col group relative",
       "data-ocid": `projects.item.${index + 1}`,
       children: [
+        project.firstPrize && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: "absolute top-3 right-3 z-10 flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold shadow-lg",
+            style: {
+              background: isColorful ? "linear-gradient(135deg, oklch(0.82 0.18 85), oklch(0.78 0.22 60))" : "linear-gradient(135deg, oklch(0.80 0.18 85), oklch(0.76 0.20 65))",
+              color: "oklch(0.25 0.06 80)",
+              border: "1px solid oklch(0.88 0.15 85)"
+            },
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Trophy, { className: "w-3 h-3" }),
+              "1st Prize"
+            ]
+          }
+        ),
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "div",
           {
@@ -1624,48 +2263,28 @@ function ProjectCard({ project, theme, index }) {
 const PROJECTS = [
   {
     id: 1,
-    title: "Calculator App",
-    description: "A command-line calculator built in C that supports basic and scientific operations. Handles arithmetic, trigonometry, and power functions with a clean CLI interface.",
-    techStack: ["C", "CLI"],
+    title: "AgroHub – Smart Crop Information & Disease Management Platform",
+    description: "Developed a comprehensive platform that provides detailed crop-related information to farmers. Identifies crop diseases using symptoms and images, suggests treatments and best farming practices to minimize crop losses.",
+    techStack: ["Python", "Machine Learning", "React", "HTML/CSS"],
     githubLink: "#",
-    demoLink: "#",
-    category: "C"
+    category: "AI & Agriculture"
   },
   {
     id: 2,
-    title: "Todo Application",
-    description: "A web-based task manager with add, edit, and delete functionality and local storage. Built with Python backend and HTML/CSS frontend for a seamless experience.",
-    techStack: ["Python", "HTML", "CSS"],
+    title: "Crowdsourced Civic Issue Reporting System",
+    description: "Built a citizen-driven platform where users can report civic issues like potholes, garbage dumps, and water leakages with location data. Helps municipal authorities track, prioritize, and resolve complaints efficiently.",
+    techStack: ["React", "Maps API", "Node.js", "Database"],
     githubLink: "#",
-    demoLink: "#",
-    category: "Web"
+    category: "Civic Tech"
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "Displays real-time weather data using API integration with beautiful visual output. Fetches live data and presents temperature, humidity, and forecasts at a glance.",
-    techStack: ["Python", "API", "CSS"],
+    title: "Remote Controlled Robot for Hazardous Working Conditions",
+    description: "Wireless remote-controlled surveillance robot designed for industrial hazardous environments. Features real-time camera feed, obstacle detection, and wireless control. Won first prize for innovation and execution.",
+    techStack: ["Embedded C", "Arduino", "Wireless", "Robotics"],
     githubLink: "#",
-    demoLink: "#",
-    category: "Python"
-  },
-  {
-    id: 4,
-    title: "Expense Tracker",
-    description: "Console app for tracking daily expenses with budget alerts and monthly summaries. Uses C++ file I/O to persist records and provides category-wise breakdown.",
-    techStack: ["C++", "File I/O"],
-    githubLink: "#",
-    demoLink: "#",
-    category: "C++"
-  },
-  {
-    id: 5,
-    title: "Chat System",
-    description: "Simple socket-based chat application supporting multiple client connections. Built in Python using sockets and threading to enable real-time messaging between users.",
-    techStack: ["Python", "Sockets", "Networking"],
-    githubLink: "#",
-    demoLink: "#",
-    category: "Python"
+    category: "Robotics",
+    firstPrize: true
   }
 ];
 function ProjectsSection({ theme }) {
@@ -1709,7 +2328,7 @@ function ProjectsSection({ theme }) {
                 "My ",
                 /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "gradient-text", children: "Projects" })
               ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground max-w-md mx-auto text-sm sm:text-base", children: "Real projects built with passion — from C programs to web apps, each solving a genuine problem and showcasing core CS skills." })
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground max-w-md mx-auto text-sm sm:text-base", children: "Real projects built with passion — from agriculture AI and civic tech to award-winning robotics, each solving a genuine real-world problem." })
             ]
           }
         ),
@@ -2056,6 +2675,8 @@ function HomePage({ theme }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col", style: { scrollBehavior: "smooth" }, children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(HeroSection, { theme }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(AboutSection, { theme }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(EducationSection, { theme }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(CertificatesSection, { theme }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(SkillsSection, { theme }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(ProjectsSection, { theme }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(LocationSection, { theme }),

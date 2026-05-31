@@ -4,9 +4,10 @@ export interface Project {
   description: string;
   techStack: string[];
   githubLink: string;
-  demoLink: string;
+  demoLink?: string;
   imageUrl?: string;
   category: string;
+  firstPrize?: boolean;
 }
 
 export interface Skill {

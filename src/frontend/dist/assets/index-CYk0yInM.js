@@ -21732,7 +21732,7 @@ function useTheme() {
   }, [theme, setTheme]);
   return { theme, setTheme, toggleTheme };
 }
-const HomePage = reactExports.lazy(() => __vitePreload(() => import("./HomePage-43mRDMFe.js"), true ? [] : void 0));
+const HomePage = reactExports.lazy(() => __vitePreload(() => import("./HomePage-DI1y0_Mv.js"), true ? [] : void 0));
 function PageLoader() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-8 p-8", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(Skeleton, { className: "h-[60vh] w-full rounded-2xl" }),

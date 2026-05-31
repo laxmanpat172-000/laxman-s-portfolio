@@ -1,14 +1,24 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import type { Project, Theme } from "@/types";
-import { Github } from "lucide-react";
+import { Github, Trophy } from "lucide-react";
 
 const TECH_COLORS: Record<string, string> = {
   C: "oklch(0.70 0.20 30)",
   "C++": "oklch(0.72 0.22 280)",
   Python: "oklch(0.72 0.18 150)",
   HTML: "oklch(0.68 0.22 40)",
+  "HTML/CSS": "oklch(0.68 0.22 40)",
   CSS: "oklch(0.66 0.22 220)",
+  React: "oklch(0.66 0.22 210)",
+  "Machine Learning": "oklch(0.68 0.20 150)",
+  "Maps API": "oklch(0.64 0.18 190)",
+  "Node.js": "oklch(0.68 0.20 150)",
+  Database: "oklch(0.64 0.16 240)",
+  "Embedded C": "oklch(0.66 0.18 30)",
+  Arduino: "oklch(0.62 0.20 190)",
+  Wireless: "oklch(0.66 0.20 270)",
+  Robotics: "oklch(0.68 0.22 280)",
   CLI: "oklch(0.60 0.15 280)",
   API: "oklch(0.65 0.18 190)",
   "File I/O": "oklch(0.62 0.16 320)",
@@ -17,14 +27,15 @@ const TECH_COLORS: Record<string, string> = {
 };
 
 const PROJECT_EMOJIS: Record<number, string> = {
-  1: "🖩",
-  2: "✅",
-  3: "🌦️",
-  4: "💰",
-  5: "💬",
+  1: "🌾",
+  2: "🏙️",
+  3: "🤖",
 };
 
 const CATEGORY_ACCENT: Record<string, string> = {
+  "AI & Agriculture": "oklch(0.68 0.22 145)",
+  "Civic Tech": "oklch(0.66 0.20 220)",
+  Robotics: "oklch(0.68 0.22 280)",
   C: "oklch(0.70 0.20 30)",
   "C++": "oklch(0.72 0.22 280)",
   Python: "oklch(0.72 0.18 150)",
@@ -32,7 +43,7 @@ const CATEGORY_ACCENT: Record<string, string> = {
 };
 
 interface ProjectCardProps {
-  project: Project;
+  project: Project & { firstPrize?: boolean };
   theme: Theme;
   index: number;
 }
@@ -44,9 +55,26 @@ export function ProjectCard({ project, theme, index }: ProjectCardProps) {
 
   return (
     <div
-      className="card-elevated rounded-2xl overflow-hidden flex flex-col group"
+      className="card-elevated rounded-2xl overflow-hidden flex flex-col group relative"
       data-ocid={`projects.item.${index + 1}`}
     >
+      {/* First Prize badge */}
+      {project.firstPrize && (
+        <div
+          className="absolute top-3 right-3 z-10 flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold shadow-lg"
+          style={{
+            background: isColorful
+              ? "linear-gradient(135deg, oklch(0.82 0.18 85), oklch(0.78 0.22 60))"
+              : "linear-gradient(135deg, oklch(0.80 0.18 85), oklch(0.76 0.20 65))",
+            color: "oklch(0.25 0.06 80)",
+            border: "1px solid oklch(0.88 0.15 85)",
+          }}
+        >
+          <Trophy className="w-3 h-3" />
+          1st Prize
+        </div>
+      )}
+
       {/* Gradient top bar */}
       <div
         className="h-1 w-full flex-shrink-0"
